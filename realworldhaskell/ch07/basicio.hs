@@ -3,4 +3,3 @@ main = do
        inputStr <- getLine
        putStrLn $ "Welcome to Haskell, " ++ inputStr ++ "!"
 
-       
