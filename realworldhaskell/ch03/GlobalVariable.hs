@@ -1,0 +1,3 @@
+itemName = "Weighted COmpanion Cube"
+
+
