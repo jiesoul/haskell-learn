@@ -6,9 +6,9 @@ import Text.ParserCombinators.Parsec hiding (spaces)
 
 main :: IO ()
 main = do args <- getArgs
-  putStrLn (readExpr (args !! 0))
+          putStrLn (readExpr (args !! 0))
 
-sysbol :: Parser Char
+symbol :: Parser Char
 symbol = oneOf "!$%&|*+-/:<=?>@^_~#"
 
 readExpr input = case parse (spaces >> symbol) "lisp" input of
