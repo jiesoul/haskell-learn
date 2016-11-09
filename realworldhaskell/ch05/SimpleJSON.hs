@@ -1,13 +1,13 @@
 module SimpleJSON
   (
-    JValue(..)
-  , getString
-  , getInt
-  , getDouble
-  , getBool
-  , getObject
-  , getArray
-  , isNull
+    JValue(..),
+    getString,
+    getInt,
+    getDouble,
+    getBool,
+    getObject,
+    getArray,
+    isNull
   ) where
 
 data JValue = JString String
