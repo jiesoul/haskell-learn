@@ -68,3 +68,6 @@ compact x = transform [x]
             a `Concat` b -> transform (a:b:ds)
             _ `Union` b  -> transform (b:ds)
 
+pretty :: Int -> Doc -> String
+
+
