@@ -1,4 +1,8 @@
-firstGoodIndentation = 1
+-- 这是最左边的列
 
-secondGoodIndentation = 2
+  -- 缩进列
+  firstGoodIndentation = 1
+  
+  -- 和上面相同
+  secondGoodIndentation = 2
 

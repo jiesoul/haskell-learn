@@ -40,7 +40,7 @@ putStrLn 打印字符串。
 :m 加载模块
 
 
-## Types and Functions
+## 2 Types and Functions
 
 每个表达式和函数都有一个类型。
 
@@ -62,3 +62,15 @@ head 返回list 的首个元素
 tail 返回除了首个的所有元素
 
 多态类型使用 type variable，必须用小写字母开头。
+
+## 3 Defining Types, Streamlining Functions
+
+使用 data 定义新的数据类型。类型构造子名必须是大写字母开头。值构造子也是大写字母开头。
+
+类型构造子和值构造子可以是相同的名字，但是本质上是不同的。
+
+type 定义一个 type synonym。 新名字在等号左边，现存的名字是右边。两个名字是相同的类型，只是为了更可读。
+
+模式匹配应该覆盖全部可能。
+
+
